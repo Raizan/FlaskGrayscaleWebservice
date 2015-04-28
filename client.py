@@ -120,7 +120,7 @@ if __name__ == "__main__":
         else:
             break
 
-    print "Enter outout folder"
+    print "Enter output folder"
     print "Usage: /path/to/output"
     print "Example: /home/output"
     while True:
