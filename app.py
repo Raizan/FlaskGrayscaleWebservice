@@ -57,4 +57,4 @@ if __name__ == '__main__':
         exit(2)
 
     hostname, port = argument[0].split(':')
-    app.run(host=hostname, port=port, debug=True)
+    app.run(host=hostname, port=int(port), debug=True)
